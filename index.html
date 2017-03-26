@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>SnakeView</title>
+		<meta charset="UTF-8">
+		<style>
+			body {
+				font-family: Consolas;
+			}
+			canvas {
+				border: 1px solid gray;
+			}
+			.button {
+				border: 1px solid black;
+				display: inline-block;
+			}
+			.button:hover{
+				background-color: green;
+			}
+		</style>
+	</head>
+
+	<body>
+		<h1>SnakeView</h1>
+		<p>Originally made for BattleSnake 2017 but did not see the light of day</p>
+		<div id="fpsCounter"></div>
+		<div id="snake-view">
+			<canvas id="renderCanvas"></canvas>
+		</div>
+		<textarea name="rawData" type="text" id="rawData" value="">
+
+		</textarea>
+		<button type="button" onclick="parseRawData()">Render</button>
+		<button type="button" onclick="Game.clear()">Clear</button>
+		<button type="button" onclick="Game.toggleWeighting()">Weighting</button>
+		<p>Sample Syntax: '000010a' will output at x = 0, y = 0 with 100% weighting on catagory A</p>
+		<p>Note: x = 0, y = 0 is the bottom left corner.</p>
+		<p>Catagories are x, a, b, c, d, and e.</p> 
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>	
