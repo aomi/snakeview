@@ -1,8 +1,11 @@
 # SnakeView
 Made for BattleSnake 2017 for diagnostic purposes but did not see the day of light.
 
+![](http://i.imgur.com/7bMMArL.png)
+_Sample of visualization capabilites._
+
 ### Features
-- HTMl5 Powered
+- HTML5 Powered
 - Simple
 - Optional weighting display parameter.
 
